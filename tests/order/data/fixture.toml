@@ -1,0 +1,5 @@
+DeliveryPreference = [
+    { code = "leaveatdoor", name_en = "Leave it at my door", name_ar = "اتركها عند الباب", allowed_for_cod = 0, is_active = 1},
+    { code = "dontring", name_en = "Do not ring the bell", name_ar = "لا تطرق الباب", allowed_for_cod = 1, is_active = 1},
+    { code = "contactless", name_en = "Contactless delivery", name_ar = "Contactless delivery", allowed_for_cod = 0, is_active = 0}
+]

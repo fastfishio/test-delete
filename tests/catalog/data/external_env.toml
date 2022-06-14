@@ -1,0 +1,4 @@
+Brand = [
+    {id_brand = 1, code = 'my_brand_test', name_en='Name english brand test', name_ar='Name arabic brand test', is_visible = 1},
+    {id_brand = 2, code = 'my_brand_test_2', name_en='Name english brand test 2', name_ar='Name arabic brand test 2', is_visible = 1}
+]

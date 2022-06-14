@@ -1,0 +1,3 @@
+Offer = [
+    { id_offer = 1, sku = 'Z008431D8F223B31EF128Z-1', wh_code = 'WH2', country_code = 'AE', id_partner = 1, msrp = '__None__', offer_price = '105'}
+]

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+    <Document>
+        <name>AE - ZONE</name>
+        <description/>
+        <Style id="poly-000000-1200-77-nodesc-normal">
+            <LineStyle>
+                <color>ff000000</color>
+                <width>1.2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>4d000000</color>
+                <fill>1</fill>
+                <outline>1</outline>
+            </PolyStyle>
+            <BalloonStyle>
+                <text><![CDATA[<h3>$[name]</h3>]]></text>
+            </BalloonStyle>
+        </Style>
+        <Style id="poly-000000-1200-77-nodesc-highlight">
+            <LineStyle>
+                <color>ff000000</color>
+                <width>1.8</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>4d000000</color>
+                <fill>1</fill>
+                <outline>1</outline>
+            </PolyStyle>
+            <BalloonStyle>
+                <text><![CDATA[<h3>$[name]</h3>]]></text>
+            </BalloonStyle>
+        </Style>
+        <StyleMap id="poly-000000-1200-77-nodesc">
+            <Pair>
+                <key>normal</key>
+                <styleUrl>#poly-000000-1200-77-nodesc-normal</styleUrl>
+            </Pair>
+            <Pair>
+                <key>highlight</key>
+                <styleUrl>#poly-000000-1200-77-nodesc-highlight</styleUrl>
+            </Pair>
+        </StyleMap>
+        <name>DXB</name>
+        <Placemark>
+            <name>WH2</name>
+            <styleUrl>#poly-000000-1200-77-nodesc</styleUrl>
+            <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <tessellate>1</tessellate>
+                        <coordinates>55.2700906,25.1967001,0 55.2704983,25.1925256,0 55.2754765,25.1909916,0
+                            55.2819996,25.1947002,0 55.2848106,25.2009909,0 55.2786522,25.2028548,0
+                            55.2758198,25.1998066,0 55.2724724,25.1991465,0 55.2700906,25.1967001,0
+                        </coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <name>DXB-2</name>
+        <Placemark>
+            <name>WH3</name>
+            <styleUrl>#poly-000000-1200-77-nodesc</styleUrl>
+            <Polygon>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <tessellate>1</tessellate>
+                        <coordinates>55.2915483,25.2125037,0 55.283609,25.2132414,0 55.2792316,25.2100576,0
+                            55.2776008,25.2021364,0 55.2891021,25.1954574,0 55.2923208,25.1999231,0
+                            55.307942,25.203612,0 55.3102165,25.2108341,0 55.2915483,25.2125037,0
+                        </coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+    </Document>
+</kml>

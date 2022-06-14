@@ -1,0 +1,25 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mp-boilerplate-configmap
+data:
+  FASTAPI_DEBUG: "1"
+  PYTHONASYNCIODEBUG: "1"
+  PYTEST_ADDOPTS: "-x -p no:warnings"
+  SPANNER_EMULATOR_HOST: "spanner:9010"
+
+  BOILERPLATE_SPANNER_PROJECT: "noon-test"
+  BOILERPLATE_SPANNER_INSTANCE_ID: "boilerplate01"
+  BOILERPLATE_SPANNER_DATABASE_ID: "boilerplate"
+  NOON_SPANNER_PROJECT: "noon-test"
+  NOON_SPANNER_INSTANCE_ID: "core01"
+  NOON_SPANNER_DATABASE_ID: "scstock"
+  SENTRY_DSN: ""
+  SOLR_HOST: "solr"
+  KML_SERVICABLITY_BUCKET_BOILERPLATE: 'noonstg-mp-gcs-boilerplate-kml'
+  CMS_CDN_HOST: "https://storage.googleapis.com/noonstg-mp-gcs-boilerplate-cms/"
+  GCP_PROJECT: "noonstg-mp"
+  MP_CODE: "boilerplate"
+
+  # shall it be db table, instead of loose spreadsheet?
+  MASTER_DATA_access: "https://docs.google.com/spreadsheets/d/1TLCI5WePspfScDtxIWlA2X7YQAkaU0JyC9JiEJIXrao/edit#gid=0"

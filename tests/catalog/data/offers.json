@@ -1,0 +1,102 @@
+[
+  {
+    "object_id": "Z008431D8F223B31EF128Z-1:WH2",
+    "sku": "Z008431D8F223B31EF128Z-1",
+    "en_title": "Delicious Chocolate Truffles Original Dusted With Cocoa Powder",
+    "ar_title": "Delicious Chocolate Truffles Original Dusted With Cocoa Powder",
+    "wh_code": "WH2",
+    "brand_code": "my_brand_test",
+    "group_code": "group3",
+    "price": 89.0
+  },
+  {
+    "object_id": "Z019FDA9EAE0889BA47A0Z-1:WH2",
+    "sku": "Z019FDA9EAE0889BA47A0Z-1",
+    "en_title": "Sunflower Oil",
+    "ar_title": "Sunflower Oil",
+    "wh_code": "WH2",
+    "brand_code": "my_brand_test",
+    "group_code": "group2",
+    "price": 209.0,
+    "cat": [
+      24371,
+      34629,
+      34948,
+      44598
+    ]
+  },
+  {
+    "object_id": "Z0174C34FC6F5FBDACC61Z-1:WH2",
+    "sku": "Z0174C34FC6F5FBDACC61Z-1",
+    "en_title": "Biosun Organic Bitter Cocoa Powder",
+    "ar_title": "مسحوق الكاكاو المر العضوي من Biosun",
+    "wh_code": "WH2",
+    "brand_code": "my_brand_test",
+    "group_code": "group2",
+    "price": 107.65,
+    "cat": [
+      1,
+      35106,
+      44975
+    ]
+  },
+  {
+    "object_id": "Z019FDA9EAE0889BA47A9Z-1:WH2",
+    "sku": "Z019FDA9EAE0889BA47A9Z-1",
+    "en_title": "Al Rawabi Milk 1L",
+    "ar_title": "عالم التمور مجول جامبو 5 كيلو",
+    "wh_code": "WH2",
+    "brand_code": "my_brand_test",
+    "en_brand": "IPhone",
+    "group_code": "group1",
+    "price": 5.65,
+    "cat": [
+      1,
+      35072,
+      44672
+    ]
+  },
+  {
+    "object_id": "ZG19FDA9EAE0889BA47A9Z-1:WH2",
+    "sku": "ZG19FDA9EAE0889BA47A9Z-1",
+    "en_title": "Al Rawabi 1L",
+    "ar_title": "عالم التمور مجول جامبو 5 كيلو",
+    "wh_code": "WH2",
+    "brand_code": "my_brand_test_2",
+    "group_code": "group1",
+    "en_brand": "iphone",
+    "price": 120.0,
+    "cat": [
+      2,
+      3
+    ]
+  },
+  {
+    "object_id": "ZU19FDA9EAE0889BA47A9Z-1:WH2",
+    "sku": "ZU19FDA9EAE0889BA47A9Z-1",
+    "en_title": "Al Rawabi  1L",
+    "ar_title": "عالم التمور مجول جامبو 5 كيلو",
+    "wh_code": "WH2",
+    "brand_code": "my_brand_test_2",
+    "group_code": "group1",
+    "price": 150.0,
+    "cat": [
+      2,
+      4
+    ]
+  },
+  {
+    "object_id": "ZT19FDA9EAE0889BA47A9Z-1:WH2",
+    "sku": "ZT19FDA9EAE0889BA47A9Z-1",
+    "en_title": "Al Rawabi 1L",
+    "ar_title": "عالم التمور مجول جامبو 5 كيلو",
+    "wh_code": "WH2",
+    "brand_code": "my_brand_test_2",
+    "group_code": "group1",
+    "price": 230.0,
+    "cat": [
+      2,
+      4
+    ]
+  }
+]

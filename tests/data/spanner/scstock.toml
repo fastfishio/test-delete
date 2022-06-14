@@ -1,0 +1,17 @@
+[stock]
+ddl = """
+CREATE TABLE stock (
+	psku_code STRING(100) NOT NULL,
+	warehouse_code STRING(30) NOT NULL,
+	qty_net INT64 NOT NULL,
+	updated_at TIMESTAMP NOT NULL OPTIONS (allow_commit_timestamp=true),
+) PRIMARY KEY (psku_code, warehouse_code)
+"""
+data = [
+    {psku_code = "abcde", warehouse_code = "WH2", qty_net = 26, updated_at = "2019-12-22T12:40:55Z"},
+    {psku_code = "aaaa", warehouse_code = "WH2", qty_net = 10, updated_at = "2019-12-22T12:40:55Z"},
+    {psku_code = "gg", warehouse_code = "WH2", qty_net = 7788, updated_at = "2019-12-22T12:40:55Z"},
+    {psku_code = "hh", warehouse_code = "WH2", qty_net = 1234, updated_at = "2019-12-22T12:40:55Z"},
+    {psku_code = "tt", warehouse_code = "WH2", qty_net = 2345, updated_at = "2019-12-22T12:40:55Z"}
+    {psku_code = "lemon", warehouse_code = "WH2", qty_net = 8566, updated_at = "2019-12-22T12:40:55Z"}
+]

@@ -1,0 +1,5 @@
+warehouse = [
+    { area_name_en = "Zaabeel Old", area_name_ar = "زعبيل قديم", city_en = 'Dubai', city_ar = 'دبي', country_code = 'AE', is_active = 0, wh_code = "WH1", lat = 1, lng = 2, delivery_fee = 10, min_order = 0},
+    { area_name_en = "Downtown", area_name_ar = "داونتاون", city_en = 'Dubai', city_ar = 'دبي', country_code = 'AE', is_active = 1, wh_code = "WH2", lat = 252005240, lng = 552807372, delivery_fee = 10, min_order = 0},
+    { area_name_en = "Zaabeel 2", area_name_ar = "زعبيل 2", city_en = 'Dubai', city_ar = 'دبي', country_code = 'AE', is_active = 1, wh_code = "WH3", lat = 252105240, lng = 552817372, delivery_fee = 10, min_order = 0}
+]

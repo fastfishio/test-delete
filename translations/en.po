@@ -1,0 +1,7 @@
+#: src/liborder/domain/order.py:189
+msgid "canceled"
+msgstr "canceled"
+
+#: src/liborder/domain/order.py:189
+msgid "confirmed"
+msgstr "confirmed"

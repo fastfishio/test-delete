@@ -1,0 +1,93 @@
+#: src/libcs/domain/customer_service.py:684 src/liborder/domain/order.py:1259
+#: src/liborder/domain/session.py:821
+msgid "Shipping"
+msgstr ""
+
+#: src/libcs/domain/customer_service.py:704 src/liborder/domain/order.py:1273
+#: src/liborder/domain/session.py:835
+msgid "Noon credits"
+msgstr ""
+
+#: src/liborder/domain/order.py:114 src/liborder/domain/session.py:721
+msgid "Invalid Payment Method"
+msgstr ""
+
+#: src/liborder/domain/order.py:116
+msgid "Max cod amount limit exceeded"
+msgstr ""
+
+#: src/liborder/domain/order.py:608
+msgid "items"
+msgstr ""
+
+#: src/liborder/domain/order.py:608
+msgid "item"
+msgstr ""
+
+#: src/liborder/domain/order.py:999 src/liborder/domain/order.py:1014
+msgid "Sorry, we had to cancel some items since they went out of stock"
+msgstr ""
+
+#: src/liborder/domain/order.py:1000 src/liborder/domain/order.py:1015
+msgid "You would not be charged for these items."
+msgstr ""
+
+#: src/liborder/domain/order.py:1005 src/liborder/domain/order.py:1020
+#, python-format
+msgid "We would be waving the delivery fee of %s %s because of the inconvenience"
+msgstr ""
+
+#: src/liborder/domain/session.py:532
+msgid ""
+"Could not add all of the requested quantity as it exceeds the available "
+"stock"
+msgstr ""
+
+#: src/liborder/domain/session.py:534
+msgid ""
+"Could not add all of the requested quantity as it exceeds the cart size "
+"limit"
+msgstr ""
+
+#: src/liborder/domain/session.py:597
+msgid "Could not set the requested quantity as it exceeds the available stock"
+msgstr ""
+
+#: src/liborder/domain/session.py:599
+msgid "Could not set the requested quantity as it exceeds the cart size limit"
+msgstr ""
+
+#: src/liborder/domain/session.py:724
+msgid "Credits Amount must not be negative"
+msgstr ""
+
+#: src/liborder/domain/session.py:759
+#, python-format
+msgid "Your cart subtotal is below the minimum order value of %s"
+msgstr ""
+
+#: src/liborder/domain/session.py:855
+msgid "We have a surge in orders, please check back in a few minutes."
+msgstr ""
+
+#: src/liborder/domain/session.py:857
+msgid "We are closed right now, please check back tomorrow."
+msgstr ""
+
+#: src/liborder/domain/session.py:862
+#, python-format
+msgid "%s"
+msgstr ""
+
+#: src/liborder/domain/session.py:863
+msgid "We will be back at"
+msgstr ""
+
+#: src/liborder/domain/session.py:864
+msgid "Sorry, we are closed right now!"
+msgstr ""
+
+#: src/libutil/error.py:10
+msgid "invalid payment method"
+msgstr ""
+

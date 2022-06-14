@@ -1,0 +1,8 @@
+Psku = [
+    {psku_code = "abcde", id_partner = 234, psku_canonical='what is this?', partner_sku='hellow', zsku_child = 'Z008431D8F223B31EF128Z-1', nsku_child = 'N012345'}
+    {psku_code = "aaaa", id_partner = 234, psku_canonical='what is this?', partner_sku='hellow', zsku_child = 'Z111111111111Z-1', nsku_child = 'N23730393A'}
+    {psku_code = "lemon", id_partner = 234, psku_canonical='what is this?', partner_sku='hellow', zsku_child = 'Z111111111112Z-1', nsku_child = 'N23730393A'}
+    {psku_code = "gg", id_partner = 234, psku_canonical='what is this?', partner_sku='hellow', zsku_child = 'Z12345-1', nsku_child = 'N12345'}
+    {psku_code = "hh", id_partner = 234, psku_canonical='what is this?', partner_sku='hellow', zsku_child = 'Z11111-1', nsku_child = 'N11111'}
+    {psku_code = "tt", id_partner = 234, psku_canonical='what is this?', partner_sku='hellow', zsku_child = 'Z22222-1', nsku_child = 'N22222'}
+]

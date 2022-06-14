@@ -1,0 +1,22 @@
+name: tests
+
+on: [push]
+
+jobs:
+  build:
+    name: full tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+    - uses: actions/checkout@v2
+    - name: wait for boilerplate app to be up and running
+      env:
+        TESTING: pytest
+        SPANNER: true
+        SOLR: true
+        MYSQL8: true
+      run: |
+        curl -sfL https://storage.googleapis.com/github_actions/ci-tests.sh | sh -
+    - name: run tests
+      run: |
+        dev test -vv --maxfail=100

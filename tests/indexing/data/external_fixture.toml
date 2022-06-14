@@ -1,0 +1,7 @@
+Psku = [
+    { psku_code = "P0001", id_partner = 1, psku_canonical='PSKU1', partner_sku='PSKU1', is_active = 1}
+]
+
+PskuCatalogMap = [
+    { psku_code = "P0001", id_catalog = 9, id_partner = 1, catalog_sku = 'Z0001'}
+]

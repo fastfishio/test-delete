@@ -1,0 +1,7 @@
+#: src/liborder/domain/order.py:189
+msgid "canceled"
+msgstr "ملغى"
+
+#: src/liborder/domain/order.py:189
+msgid "confirmed"
+msgstr "مؤكد"

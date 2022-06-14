@@ -1,0 +1,80 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mp-boilerplate-api-indexing
+  labels:
+    app: mp-boilerplate-api-indexing
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mp-boilerplate-api-indexing
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      name: mp-boilerplate-api-indexing
+      labels:
+        app: mp-boilerplate-api-indexing
+    spec:
+      restartPolicy: Always
+      volumes:
+        - name: mp-boilerplate-api-credentials
+          hostPath:
+            path: /private/noon/credentials
+      containers:
+      - image: mp-boilerplate-api
+        name: mp-boilerplate-api
+        imagePullPolicy: IfNotPresent
+        command: ["/src/bin/run.sh"]
+        tty: true
+        stdin: true
+        envFrom:
+        - configMapRef:
+            name: config-com
+        - configMapRef:
+            name: mp-boilerplate-configmap
+        volumeMounts:
+          - name: mp-boilerplate-api-credentials
+            mountPath: /credentials/
+            readOnly: true
+        env:
+        - name: APPNAME
+          value: "mp-boilerplate-api-indexing"
+      terminationGracePeriodSeconds: 1
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: mp-boilerplate-api-indexing
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    ingress.kubernetes.io/rewrite-target: "/"
+spec:
+  tls:
+    - hosts:
+        - mp-boilerplate-api-indexing.noondv.com
+  rules:
+  - host: mp-boilerplate-api-indexing.noondv.com
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: mp-boilerplate-api-indexing
+            port:
+              number: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: mp-boilerplate-api-indexing
+spec:
+  ports:
+  - name: http
+    port: 80
+    protocol: TCP
+    targetPort: 8080
+  selector:
+    app: mp-boilerplate-api-indexing
